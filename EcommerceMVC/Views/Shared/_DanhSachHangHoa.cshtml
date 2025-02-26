@@ -1,0 +1,70 @@
+﻿@using static EcommerceMVC.Helpers.MySetting
+
+@{
+    Layout = "_LayoutCustomer";
+}
+
+<!-- Single Page Header start -->
+@RenderSection("BreadCum", required: false)
+<!-- Single Page Header End -->
+<!-- Fruits Shop Start-->
+<div class="container-fluid fruite py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Ecommerce shop</h1>
+        <div class="row g-4">
+            <div class="col-lg-12">
+                <div class="row g-4">
+                    <div class="col-xl-3">
+                        <div class="input-group w-100 mx-auto d-flex">
+                            @await Html.PartialAsync("_Search")
+                        </div>
+                    </div>
+                    <div class="col-6"></div>
+                    <div class="col-xl-3">
+                        <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
+                            @{
+                                string? cate = Context.Request.Query["category"];
+                            }
+                            <form id="sortForm" method="get" action="Product/Index">
+                                <label for="fruits">Sắp xếp:</label>
+                                <select name="sort" class="border-0 form-select-sm bg-light me-3" onchange="this.form.submit();">
+                                    @{
+                                        string? sort = Context.Request.Query["sort"];
+                                        foreach (SortOption option in Enum.GetValues(typeof(SortOption)))
+                                        {
+                                            string optionValue = option.ToString();
+                                            <option value="@optionValue" selected="@(sort == optionValue ? "selected" : null)">
+                                                @optionValue
+                                            </option>
+                                        }
+                                    }
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3">
+                        <div class="row g-4">
+                            @await Component.InvokeAsync("MenuLoai")
+                            <div class="col-lg-12">
+                                <div class="position-relative">
+                                    <img src="img/banner-fruits.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="position-absolute" style="top: 50%; right: 10px; transform: translateY(-50%);">
+                                        <h3 class="text-secondary fw-bold">Fresh <br> Fruits <br> Banner</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row g-4 justify-content-center">
+                            @RenderBody();
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fruits Shop End-->

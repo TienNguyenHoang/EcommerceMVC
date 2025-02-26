@@ -1,0 +1,27 @@
+﻿@model EcommerceMVC.ViewModels.HangHoaVM
+<div class="col-md-6 col-lg-6 col-xl-4">
+    <div class="rounded position-relative fruite-item">
+        <div class="fruite-img">
+            <a asp-controller="Product" asp-action="Detail" asp-route-id="@Model.ProductId">
+                <img src="~/Hinh/HangHoa/@Model.Image" class="img-fluid w-100 rounded-top" alt="">   
+            </a>
+        </div>
+        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@Model.CategoryName</div>
+        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+            <a asp-controller="Product" asp-action="Detail" asp-route-id="@Model.ProductId">
+                <h4>@Model.ProductName</h4>
+            </a>
+            @if (@Model.Description.Length > 40)
+            {
+                <p>@Model.Description.Substring(0, Math.Min(40, @Model.Description.Length))...</p>
+            } else
+            {
+                <p>@Model.Description</p>
+            }
+            <div class="d-flex justify-content-between flex-lg-wrap">
+                <p class="text-dark fs-5 fw-bold mb-0">@Model.Price</p>
+                <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ</a>
+            </div>
+        </div>
+    </div>
+</div> 

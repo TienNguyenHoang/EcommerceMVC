@@ -1,0 +1,52 @@
+﻿@model EcommerceMVC.ViewModels.ProductListVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_DanhSachHangHoa";
+}
+
+<!-- Single Page Header start -->
+@section BreadCum {
+    <div class="container-fluid page-header py-5">
+        <h1 class="text-center text-white display-6">Shop</h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active text-white">Shop</li>
+        </ol>
+    </div>
+}
+<!-- Single Page Header End -->
+@if (Context.Request.Query.ContainsKey("query"))
+{
+    if (Model.PagingInfo.countPage > 0)
+    {
+        <h1>Kết quả tìm kiếm (Tìm thấy @Model.PagingInfo.totalProduct Sản phẩm)</h1>
+
+        @foreach (var item in Model.Products)
+        {
+            @await Html.PartialAsync("_ProductItem", model: item)
+        }
+    }
+    else
+    {
+        <h1>Không tìm thấy sản phẩm nào</h1>
+    }
+} else
+{
+    @foreach (var item in Model.Products)
+    {
+        @await Html.PartialAsync("_ProductItem", model: item)
+        ;
+    }
+}
+
+@{
+    var pagingModel = new EcommerceMVC.Helpers.PagingModel()
+            {
+                currentPage = Model.PagingInfo.currentPage,
+                countPage = Model.PagingInfo.countPage,
+                generateUrl = Model.PagingInfo.generateUrl
+            };
+}
+<partial name="_Paging" model="@pagingModel"></partial>
+<!-- Fruits Shop End-->
