@@ -292,3 +292,12 @@ D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\obj\Debug\net8.0\ref\Ecommer
 D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\obj\Debug\net8.0\EcommerceMVC.sourcelink.json
 D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\Twilio.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\System.Web.Mvc.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\System.Web.Razor.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\System.Web.Helpers.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\System.Web.WebPages.dll
+D:\Workspace\EcommerceMVC\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

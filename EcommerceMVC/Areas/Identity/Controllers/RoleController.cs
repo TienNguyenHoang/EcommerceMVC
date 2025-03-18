@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using App.Areas.Identity.Models.ManageViewModels;
 using App.Areas.Identity.Models.RoleViewModels;
 using App.Data;
-using App.ExtendMethods;
+using EcommerceMVC.ExtendMethods;
 using EcommerceMVC.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -136,14 +136,14 @@ namespace App.Areas.Identity.Controllers
 
         // GET: /Role/Edit/roleid
         [HttpGet("{roleid}")]
-        public async Task<IActionResult> EditAsync(string roleid, [Bind("Name")]EditRoleModel model)
+        public async Task<IActionResult> EditAsync(string roleid, [Bind("Name")] EditRoleModel model)
         {
             if (roleid == null) return NotFound("Không tìm thấy role");
             var role = await _roleManager.FindByIdAsync(roleid);
             if (role == null)
             {
                 return NotFound("Không tìm thấy role");
-            } 
+            }
             model.Name = role.Name;
             model.Claims = await _context.RoleClaims.Where(rc => rc.RoleId == role.Id).ToListAsync();
             model.role = role;
@@ -151,25 +151,25 @@ namespace App.Areas.Identity.Controllers
             return View(model);
 
         }
-        
-        // POST: /Role/Edit/1
+
+        //POST: /Role/Edit/1
         [HttpPost("{roleid}"), ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditConfirmAsync(string roleid, [Bind("Name")]EditRoleModel model)
+        public async Task<IActionResult> EditConfirmAsync(string roleid, [Bind("Name")] EditRoleModel model)
         {
             if (roleid == null) return NotFound("Không tìm thấy role");
             var role = await _roleManager.FindByIdAsync(roleid);
             if (role == null)
             {
                 return NotFound("Không tìm thấy role");
-            } 
+            }
             model.Claims = await _context.RoleClaims.Where(rc => rc.RoleId == role.Id).ToListAsync();
             model.role = role;
             if (!ModelState.IsValid)
             {
                 return View(model);
             }
-    
+
             role.Name = model.Name;
             var result = await _roleManager.UpdateAsync(role);
 

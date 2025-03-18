@@ -7,6 +7,7 @@
 
 <form asp-controller="Account" asp-action="SendCode" asp-route-returnurl="@Model.ReturnUrl" method="post" class="form-horizontal" role="form">
     <input asp-for="RememberMe" type="hidden" />
+    <div asp-validation-summary="All" class="text-danger"></div>
     <div class="row">
         <div class="col-md-8">
             Mã xác thực gửi tới:

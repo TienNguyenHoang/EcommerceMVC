@@ -1,0 +1,21 @@
+﻿@model EcommerceMVC.Areas.Admin.ViewModels.CategoryVM
+@{
+    ViewData["Title"] = "Chỉnh sửa danh mục";
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light rounded h-100 p-4">
+        <h2>Chỉnh sửa danh mục</h2>
+        <form>
+            <div class="mb-3">
+                <label for="ProductId" class="form-label">Mã sản phẩm</label>
+                <input type="text" class="form-control" id="ProductId" disabled value="@Model.CategoryId">
+            </div>
+            <div class="mb-3">
+                <label for="ProductName" class="form-label">Tên sản phẩm</label>
+                <input type="text" class="form-control" id="ProductName" value="@Model.CategoryName">
+            </div>
+            <a class="btn btn-light" asp-controller="Category" asp-action="Index">Trở về</a>
+            <button type="submit" class="btn btn-primary">Chỉnh sửa</button>
+        </form>
+    </div>
+</div>

@@ -14,11 +14,13 @@ namespace App.Areas.Identity.Models.ManageViewModels
       public string PhoneNumber { get; set; }
 
       [Display(Name = "Địa chỉ")]
-      [StringLength(400)]
+      [Required(ErrorMessage = "Phải nhập {0}")]
+      [StringLength(400,MinimumLength = 6, ErrorMessage = "{0} phải từ {2} đến {1} ký tự")]
       public string HomeAdress { get; set; }
 
 
       [Display(Name = "Ngày sinh")]
+      [Required(ErrorMessage = "Phải nhập {0}")]
       public DateTime? BirthDate { get; set; }
   }
 }

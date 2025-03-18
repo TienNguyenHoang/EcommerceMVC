@@ -20,23 +20,23 @@
                 <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active rounded">
-                            <img src="img/PhoneBanner.webp" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
+                            <img src="~/Customer_Template/img/PhoneBanner.webp" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
                             <a href="#" class="btn px-4 py-2 text-white rounded">Điện thoại</a>
                         </div>
                         <div class="carousel-item rounded">
-                            <img src="img/LaptopBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                            <img src="~/Customer_Template/img/LaptopBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
                             <a href="#" class="btn px-4 py-2 text-white rounded">Lapptop</a>
                         </div>
                         <div class="carousel-item rounded">
-                            <img src="img/WatchBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                            <img src="~/Customer_Template/img/WatchBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
                             <a href="#" class="btn px-4 py-2 text-white rounded">Đồng hồ</a>
                         </div>
                         <div class="carousel-item rounded">
-                            <img src="img/CameraBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                            <img src="~/Customer_Template/img/CameraBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
                             <a href="#" class="btn px-4 py-2 text-white rounded">Máy ảnh</a>
                         </div>
                         <div class="carousel-item rounded">
-                            <img src="img/ShoesBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                            <img src="~/Customer_Template/img/ShoesBanner.webp" class="img-fluid w-100 h-100 rounded" alt="Second slide">
                             <a href="#" class="btn px-4 py-2 text-white rounded">Giày</a>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">@item.Price $</h4>
+                                <h4 class="mb-3">@VNDConverter.ConvertToVND(item.Price)</h4>
                                 <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@item.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ</a>
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                     </div>
                     <div class="d-flex align-items-center flex-nowrap">
                         <div class="bg-secondary rounded">
-                            <img src="img/avatar1.webp" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                            <img src="~/Customer_Template/img/avatar1.webp" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
                         </div>
                         <div class="ms-4 d-block">
                             <h4 class="text-dark">Nguyễn Văn</h4>
@@ -232,7 +232,7 @@
                     </div>
                     <div class="d-flex align-items-center flex-nowrap">
                         <div class="bg-secondary rounded">
-                            <img src="img/avatar2.webp" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                            <img src="~/Customer_Template/img/avatar2.webp" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
                         </div>
                         <div class="ms-4 d-block">
                             <h4 class="text-dark">Trần Thị B</h4>
@@ -261,7 +261,7 @@
                     </div>
                     <div class="d-flex align-items-center flex-nowrap">
                         <div class="bg-secondary rounded">
-                            <img src="img/avatar3.webp" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                            <img src="~/Customer_Template/img/avatar3.webp" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
                         </div>
                         <div class="ms-4 d-block">
                             <h4 class="text-dark">Lê tuấn C</h4>

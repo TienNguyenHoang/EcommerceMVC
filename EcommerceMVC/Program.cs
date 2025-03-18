@@ -23,11 +23,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 builder.Services.AddAutoMapper(typeof (AutoMapperProfile));
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
-{
-    options.LoginPath = "/KhachHang/DangNhap";
-    options.AccessDeniedPath = "/AccessDenied";
-});
+
 builder.Services.AddSingleton(x => new PaypalClient(
 		builder.Configuration["PaypalOptions:AppId"],
 		builder.Configuration["PaypalOptions:AppSecret"],
@@ -48,6 +44,13 @@ builder.Services.AddAuthentication()
             options.ClientSecret = gconfig["ClientSecret"];
             // https://localhost:5001/signin-google
             options.CallbackPath = "/dang-nhap-tu-google";
+        })
+        .AddFacebook(options => {
+            var gconfig = builder.Configuration.GetSection("Authentication:Facebook");
+            options.ClientId = gconfig["AppId"];
+            options.ClientSecret = gconfig["AppSecret"];
+            // https://localhost:5001/signin-facebook
+            options.CallbackPath = "/dang-nhap-tu-facebook";
         });
 // Truy cập IdentityOptions
 builder.Services.Configure<IdentityOptions>(options => {
@@ -71,8 +74,14 @@ builder.Services.Configure<IdentityOptions>(options => {
 
     // Cấu hình đăng nhập.
     options.SignIn.RequireConfirmedEmail = true;            // Cấu hình xác thực địa chỉ email (email phải tồn tại)
-    options.SignIn.RequireConfirmedPhoneNumber = false;     // Xác thực số điện thoại
-
+    options.SignIn.RequireConfirmedPhoneNumber = false;     // Xác thực số điện thoại   
+    options.SignIn.RequireConfirmedAccount = true;
+});
+// Thiết lập đường dẫn đến trang login/logout/AccessDeny khi không có quyền truy cập (Authorization)
+builder.Services.ConfigureApplicationCookie(options => {
+    options.LoginPath = "/login/";
+    options.LogoutPath = "/logout/";
+    options.AccessDeniedPath = "/AccessDenied.html";
 });
 
 var app = builder.Build();

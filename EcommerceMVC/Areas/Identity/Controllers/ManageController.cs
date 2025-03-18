@@ -4,7 +4,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using App.Areas.Identity.Models.ManageViewModels;
-using App.ExtendMethods;
+using EcommerceMVC.ExtendMethods;
 using EcommerceMVC.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -39,15 +39,18 @@ namespace App.Areas.Identity.Controllers
         //
         // GET: /Manage/Index
         [HttpGet]
-        public async Task<IActionResult> Index(ManageMessageId? message = null)
+        public async Task<IActionResult> Index(ManageMessageId? Message = null)
         {
             ViewData["StatusMessage"] =
-                message == ManageMessageId.ChangePasswordSuccess ? "Đã thay đổi mật khẩu."
-                : message == ManageMessageId.SetPasswordSuccess ? "Đã đặt lại mật khẩu."
-                : message == ManageMessageId.SetTwoFactorSuccess ? "Your two-factor authentication provider has been set."
-                : message == ManageMessageId.Error ? "Có lỗi."
-                : message == ManageMessageId.AddPhoneSuccess ? "Đã thêm số điện thoại."
-                : message == ManageMessageId.RemovePhoneSuccess ? "Đã bỏ số điện thoại."
+                Message == ManageMessageId.ChangePasswordSuccess ? "Đã thay đổi mật khẩu."
+                : Message == ManageMessageId.SetPasswordSuccess ? "Đã đặt lại mật khẩu."
+                : Message == ManageMessageId.SetTwoFactorSuccess ? "Your two-factor authentication provider has been set."
+                : Message == ManageMessageId.Error ? "Có lỗi."
+                : Message == ManageMessageId.AddPhoneSuccess ? "Đã thêm số điện thoại."
+                : Message == ManageMessageId.RemovePhoneSuccess ? "Đã bỏ số điện thoại."
+                : Message == ManageMessageId.EditProfileSuccess ? "Đã thay đổi thông tin cá nhân."
+                : Message == ManageMessageId.EnableTwoFactorAuthentication ? "Đã kích hoạt xác thực 2 yếu tố."
+                : Message == ManageMessageId.DisableTwoFactorAuthentication ? "Đã tắt kích hoạt xác thực 2 yếu tố."
                 : "";
 
             var user = await GetCurrentUserAsync();
@@ -58,13 +61,13 @@ namespace App.Areas.Identity.Controllers
                 TwoFactor = await _userManager.GetTwoFactorEnabledAsync(user),
                 Logins = await _userManager.GetLoginsAsync(user),
                 BrowserRemembered = await _signInManager.IsTwoFactorClientRememberedAsync(user),
-                AuthenticatorKey = await _userManager.GetAuthenticatorKeyAsync(user),
                 profile = new EditExtraProfileModel()
                 {
                     HomeAdress = user.HomeAddress,
                     UserName = user.UserName,
                     UserEmail = user.Email,
                     PhoneNumber = user.PhoneNumber,
+                    BirthDate = user.BirthDate
                 }
             };
             return View(model);
@@ -78,6 +81,9 @@ namespace App.Areas.Identity.Controllers
             SetPasswordSuccess,
             RemoveLoginSuccess,
             RemovePhoneSuccess,
+            EditProfileSuccess,
+            EnableTwoFactorAuthentication,
+            DisableTwoFactorAuthentication,
             Error
         }
         private Task<User> GetCurrentUserAsync()
@@ -319,7 +325,7 @@ namespace App.Areas.Identity.Controllers
                 await _userManager.SetTwoFactorEnabledAsync(user, true);
                 await _signInManager.SignInAsync(user, isPersistent: false);
             }
-            return RedirectToAction(nameof(Index), "Manage");
+            return RedirectToAction(nameof(Index), new { Message = ManageMessageId.EnableTwoFactorAuthentication });
         }
 
         //
@@ -335,37 +341,7 @@ namespace App.Areas.Identity.Controllers
                 await _signInManager.SignInAsync(user, isPersistent: false);
                 _logger.LogInformation(2, "User disabled two-factor authentication.");
             }
-            return RedirectToAction(nameof(Index), "Manage");
-        }
-        //
-        // POST: /Manage/ResetAuthenticatorKey
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ResetAuthenticatorKey()
-        {
-            var user = await GetCurrentUserAsync();
-            if (user != null)
-            {
-                await _userManager.ResetAuthenticatorKeyAsync(user);
-                _logger.LogInformation(1, "User reset authenticator key.");
-            }
-            return RedirectToAction(nameof(Index), "Manage");
-        }
-
-        //
-        // POST: /Manage/GenerateRecoveryCode
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> GenerateRecoveryCode()
-        {
-            var user = await GetCurrentUserAsync();
-            if (user != null)
-            {
-                var codes = await _userManager.GenerateNewTwoFactorRecoveryCodesAsync(user, 5);
-                _logger.LogInformation(1, "User generated new recovery code.");
-                return View("DisplayRecoveryCodes", new DisplayRecoveryCodesViewModel { Codes = codes });
-            }
-            return View("Error");
+            return RedirectToAction(nameof(Index), new { Message = ManageMessageId.DisableTwoFactorAuthentication });
         }
 
         [HttpGet]
@@ -379,6 +355,7 @@ namespace App.Areas.Identity.Controllers
                 UserName = user.UserName,
                 UserEmail = user.Email,
                 PhoneNumber = user.PhoneNumber,
+                BirthDate = user.BirthDate
             };
             return View(model);
         }
@@ -388,10 +365,11 @@ namespace App.Areas.Identity.Controllers
             var user = await GetCurrentUserAsync();
 
             user.HomeAddress = model.HomeAdress;
+            user.BirthDate = model.BirthDate;
             await _userManager.UpdateAsync(user);
 
             await _signInManager.RefreshSignInAsync(user);
-            return RedirectToAction(nameof(Index), "Manage");
+            return RedirectToAction(nameof(Index), new { Message = ManageMessageId.EditProfileSuccess });
 
         }
 

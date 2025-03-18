@@ -5,8 +5,1244 @@
       "PackagePath": "staticwebassets\\EcommerceMVC.bundle.scp.css"
     },
     {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\404.html",
-      "PackagePath": "staticwebassets\\404.html"
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\404.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\404.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin_Template\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\Admin_Template\\READ-ME.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\blank.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\blank.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\bootstrap-admin-template-free.jpg",
+      "PackagePath": "staticwebassets\\Admin_Template\\bootstrap-admin-template-free.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\button.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\button.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\chart.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\chart.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\element.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\element.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\form.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\form.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Admin_Template\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Admin_Template\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\Admin_Template\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\index.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\index.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\js\\main.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Admin_Template\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Admin_Template\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\signin.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\signin.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\signup.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\signup.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\table.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\table.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\typography.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\typography.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Admin_Template\\widget.html",
+      "PackagePath": "staticwebassets\\Admin_Template\\widget.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\404.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\404.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\cart.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\cart.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\chackout.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\chackout.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\contact.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\contact.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\css\\site.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\css\\style.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\favicon.ico",
+      "PackagePath": "staticwebassets\\Customer_Template\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\CameraBanner.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\CameraBanner.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\LaptopBanner.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\LaptopBanner.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\PhoneBanner.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\PhoneBanner.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\ShoesBanner.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\ShoesBanner.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\WatchBanner.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\WatchBanner.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\avatar1.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\avatar1.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\avatar2.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\avatar2.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\avatar3.webp",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\avatar3.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\payment.png",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\payment.png"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Customer_Template\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\index.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\index.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\js\\main.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\js\\site.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Customer_Template\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Customer_Template\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\shop-detail.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\shop-detail.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\shop.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\shop.html"
+    },
+    {
+      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Customer_Template\\testimonial.html",
+      "PackagePath": "staticwebassets\\Customer_Template\\testimonial.html"
     },
     {
       "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Hinh\\HangHoa\\1009.gif",
@@ -1211,742 +2447,6 @@
     {
       "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\Hinh\\icons\\vit.gif",
       "PackagePath": "staticwebassets\\Hinh\\icons\\vit.gif"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\cart.html",
-      "PackagePath": "staticwebassets\\cart.html"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\chackout.html",
-      "PackagePath": "staticwebassets\\chackout.html"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\contact.html",
-      "PackagePath": "staticwebassets\\contact.html"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\CameraBanner.webp",
-      "PackagePath": "staticwebassets\\img\\CameraBanner.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\LaptopBanner.webp",
-      "PackagePath": "staticwebassets\\img\\LaptopBanner.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\PhoneBanner.webp",
-      "PackagePath": "staticwebassets\\img\\PhoneBanner.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\ShoesBanner.webp",
-      "PackagePath": "staticwebassets\\img\\ShoesBanner.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\WatchBanner.webp",
-      "PackagePath": "staticwebassets\\img\\WatchBanner.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\avatar.jpg",
-      "PackagePath": "staticwebassets\\img\\avatar.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\avatar1.webp",
-      "PackagePath": "staticwebassets\\img\\avatar1.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\avatar2.webp",
-      "PackagePath": "staticwebassets\\img\\avatar2.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\avatar3.webp",
-      "PackagePath": "staticwebassets\\img\\avatar3.webp"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\payment.png",
-      "PackagePath": "staticwebassets\\img\\payment.png"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\testimonial-1.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\js\\main.js",
-      "PackagePath": "staticwebassets\\js\\main.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\easing\\easing.js",
-      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\easing\\easing.min.js",
-      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\lightbox\\images\\close.png",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\lightbox\\images\\loading.gif",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\lightbox\\images\\next.png",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\lightbox\\images\\prev.png",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\waypoints\\links.php",
-      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\waypoints\\waypoints.min.js",
-      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\shop-detail.html",
-      "PackagePath": "staticwebassets\\shop-detail.html"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\shop.html",
-      "PackagePath": "staticwebassets\\shop.html"
-    },
-    {
-      "Id": "D:\\Workspace\\EcommerceMVC\\EcommerceMVC\\EcommerceMVC\\wwwroot\\testimonial.html",
-      "PackagePath": "staticwebassets\\testimonial.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EcommerceMVC.Microsoft.AspNetCore.StaticWebAssets.props",

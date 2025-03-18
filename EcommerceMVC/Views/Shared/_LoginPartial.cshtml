@@ -15,12 +15,15 @@
                 <a class="dropdown-item" asp-area="Identity" asp-controller="Manage" asp-action="Index">Thông tin cá nhân</a>
             </li>
             <li>
-                <a class="dropdown-item">Đơn hàng</a>
+                <a class="dropdown-item" asp-controller="Order" asp-action="Index">Đơn hàng</a>
+
             </li>
             <li>
-                <form asp-area="Identity" asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm">
-                    <button type="submit" class="dropdown-item bg-transparent border-0">Đăng xuất</button>
-                </form>
+                <a class="dropdown-item">
+                    <form asp-area="Identity" asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm">
+                        <button type="submit" class="bg-transparent border-0">Đăng xuất</button>
+                    </form>
+                </a>
             </li>
         </ul>
     }

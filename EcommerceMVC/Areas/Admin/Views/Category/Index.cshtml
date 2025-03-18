@@ -1,0 +1,61 @@
+﻿@using EcommerceMVC.Helpers
+@model EcommerceMVC.Areas.Admin.ViewModels.CategoryListVM
+@{
+    ViewData["Title"] = "Quản lý danh mục";
+    var i = 1;
+}   
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light rounded h-100 p-4">
+        <h6>Công cụ</h6>
+        <div class="d-flex justify-content-between">
+            <div class="input-group w-75">
+                <span class="input-group-text" id="basic-addon3">Tìm kiếm</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Search">
+            </div> 
+            <a class="btn btn-success btn-sm w-25 ms-3" asp-controller="Category" asp-action="Add"><i class="fa fa-solid fa-plus fa-2xl"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- Table Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light rounded h-100 p-4">
+        <h6 class="mb-4">Sản phẩm</h6>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Mã danh mục</th>
+                    <th scope="col">Tên danh mục</th>
+                    <th scope="col">Trạng thái</th>
+                    <th scope="col">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Categories)
+                {
+                    <tr>
+                        <th>@(((Model.PagingInfo.currentPage - 1) * MySetting.ITEMS_PER_PAGE) + i++)</th>
+                        <td>@item.CategoryId</td>
+                        <td>@item.CategoryName</td>
+                        <td>@(item.Status?"Đang hoạt động":"Ngừng hoạt động")</td>
+                        <td>
+                            <a class="btn btn-primary" asp-controller="Category" asp-action="Update" asp-route-id="@item.CategoryId">Sửa</a>
+                            <a class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@item.CategoryId">Xóa</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    @{
+        var pagingModel = new EcommerceMVC.Helpers.PagingModel()
+            {
+                currentPage = Model.PagingInfo.currentPage,
+                countPage = Model.PagingInfo.countPage,
+                generateUrl = Model.PagingInfo.generateUrl
+            };
+    }
+    <partial name="_Paging" model="@pagingModel"></partial>
+</div>

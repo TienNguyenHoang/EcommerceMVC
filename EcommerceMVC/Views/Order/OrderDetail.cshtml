@@ -1,0 +1,83 @@
+﻿@model EcommerceMVC.ViewModels.OrderVM
+@{
+	ViewData["Title"] = "Chi tiết đơn hàng";
+}
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+	<h1 class="text-center text-white display-6">Chi tiết đơn hàng</h1>
+	<ol class="breadcrumb justify-content-center mb-0">
+		<li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+		<li class="breadcrumb-item"><a href="#">Đơn hàng</a></li>
+		<li class="breadcrumb-item"><a href="#">Chi tiết</a></li>
+	</ol>
+</div>
+
+<div class="container">
+	<form>
+		<div class="row">
+			<div class="col">
+				<div class="mb-3">
+					<label for="recipient-name" class="col-form-label">Người nhận:</label>
+					<input type="text" class="form-control" disabled value="@Model.ReceiverName">
+				</div>
+				<div class="mb-3">
+					<label for="message-text" class="col-form-label">Địa chỉ:</label>
+					<input class="form-control" id="message-text" value="@Model.Address" disabled></input>
+				</div>
+				<div class="mb-3">
+					<label for="message-text" class="col-form-label">Số điện thoại:</label>
+					<input class="form-control" id="message-text" value="@Model.Phone" disabled></input>
+				</div>
+				<div class="mb-3">
+					<label for="message-text" class="col-form-label">Phương thức thanh toán:</label>
+					<input class="form-control" id="message-text" value="@Model.PaymentMethod" disabled></input>
+				</div>
+			</div>
+			<div class="col">
+				<div class="mb-3">
+					<label for="message-text" class="col-form-label">Ngày đặt:</label>
+					<input class="form-control" id="message-text" value="@Model.OrderDate" disabled></input>
+				</div>
+				<div class="mb-3">
+					<label for="message-text" class="col-form-label">Ghi chú:</label>
+					<textarea class="form-control" id="message-text" disabled>@Model.Note</textarea>
+				</div>
+				<div class="mb-3">
+					<label for="message-text" class="col-form-label">Tổng tiền:</label>
+					<input class="form-control" id="message-text" value="@VNDConverter.ConvertToVND(Model.OrderDetails.ToList().Sum(o => o.Price * o.Quantity))" disabled></input>
+				</div>
+				<div class="mb-3">
+					<label for="message-text" class="col-form-label">Trạng thái:</label>
+					<input class="form-control" id="message-text" value="@Model.Status.OrderStatusName" disabled></input>
+				</div>
+			</div>
+		</div>
+	</form>
+	<hr></hr>
+	<h2>Chi Tiết Sản Phẩm</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Sản phẩm</th>
+				<th scope="col">Đơn giá</th>
+				<th scope="col">Số lượng</th>
+				<th scope="col">Thành tiền</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var orderDeatail in Model.OrderDetails)
+			{
+				<tr>
+					<td scope="row"><image src="/Hinh/HangHoa/@orderDeatail.Product.Image" class="img-thumbnail w-25"></image></td>
+					<td scope="row">@orderDeatail.Product.ProductName</td>
+					<td scope="row">@VNDConverter.ConvertToVND(orderDeatail.Price)</td>
+					<td scope="row">@orderDeatail.Quantity</td>
+					<td scope="row">@VNDConverter.ConvertToVND(orderDeatail.Quantity * orderDeatail.Price)</td>
+				</tr>
+			}
+
+		</tbody>
+	</table>
+	<a class="btn btn-success" asp-controller="Order" asp-action="Index">Trở về</a>
+</div>

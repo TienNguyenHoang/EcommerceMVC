@@ -1,0 +1,52 @@
+﻿@model EcommerceMVC.Areas.Admin.ViewModels.ProductDetailVM
+@{
+    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+    var CategoryList = new SelectList(Model.Categories, "CategoryId", "CategoryName");
+    var SupplierList = new SelectList(Model.Suppliers, "SupplierId", "SupplierId");
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light rounded h-100 p-4">
+        <h2>Chỉnh sửa sản phẩm</h2>
+        <form>
+            <div class="mb-3">
+                <label for="ProductId" class="form-label">Mã sản phẩm</label>
+                <input type="text" class="form-control" id="ProductId" disabled value="@Model.Product.ProductId">
+            </div>
+            <div class="mb-3">
+                <label for="ProductName" class="form-label">Tên sản phẩm</label>
+                <input type="text" class="form-control" id="ProductName" value="@Model.Product.ProductName">
+            </div>
+            <div class="mb-3">
+                <label for="Price" class="form-label">Giá</label>
+                <input type="number" class="form-control" id="Price" value="@Model.Product.Price">
+            </div>
+            <div class="mb-3">
+                <label for="Image" class="form-label">Hình ảnh</label>
+                <img src="~/Hinh/HangHoa/@Model.Product.Image" alt="@Model.Product.ProductName" class="form-control img-fluid w-25" id="Image" />
+                <input type="file" class="form-control" name="name" value="" />
+            </div>
+            <div class="mb-3">
+                <label for="Description" class="form-label">Mô tả</label>
+                <textarea class="form-control" id="Description">@Model.Product.Description</textarea>
+            </div>
+            <div class="mb-3">
+                <label for="Category" class="form-label">Danh mục</label>
+                @Html.DropDownListFor(m => m.Product.Category.CategoryId, CategoryList, new
+                {
+                    id = "Category",
+                    @class = "form-control"
+                })
+            </div>
+            <div class="mb-3">
+                <label for="Supplier" class="form-label">Nhà cung cấp</label>
+                @Html.DropDownListFor(m => m.Product.Supplier.SupplierId, SupplierList, new
+                    {
+                        id = "Supplier",
+                        @class = "form-control"
+                    })
+            </div>
+            <a class="btn btn-light" asp-controller="ProductManagement" asp-action="Index">Trở về</a>
+            <button type="submit" class="btn btn-primary">Chỉnh sửa</button>
+        </form>
+    </div>
+</div>

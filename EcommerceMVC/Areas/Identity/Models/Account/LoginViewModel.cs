@@ -16,9 +16,10 @@ namespace App.Areas.Identity.Models.AccountViewModels
         public string UserNameOrEmail { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Phải nhập {0}")]
         [DataType(DataType.Password)]
         [Display(Name = "Mật khẩu")]
+        [StringLength(100, MinimumLength = 6, ErrorMessage = "{0} phải từ {2} đến {1} ký tự")]
         public string Password { get; set; }
 
         [Display(Name = "Nhớ thông tin đăng nhập?")]

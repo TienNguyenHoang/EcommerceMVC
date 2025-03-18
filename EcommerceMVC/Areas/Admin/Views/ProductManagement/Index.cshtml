@@ -1,0 +1,73 @@
+﻿@using EcommerceMVC.Helpers
+@model EcommerceMVC.Areas.Admin.ViewModels.ProductListVM
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+    var i = 1;
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light rounded h-100 p-4">
+        <h6>Công cụ</h6>
+        <div class="d-flex justify-content-between">
+            <div class="input-group mb-3 w-75">
+                <span class="input-group-text" id="basic-addon3">Tìm kiếm</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Search">
+            </div>
+            <div class="input-group mb-3 w-25 ms-3">
+                <span class="input-group-text" id="basic-addon3">Lọc</span>
+                @Html.DropDownListFor(m=>m.Products,new SelectList(Model.Categories, "CategoryId", "CategoryName"), "--Chọn Danh Mục--", new
+                {
+                    id = "CategoryList",
+                    @class = "form-control"
+                })
+            </div>
+        </div>
+        <a class="btn btn-success btn-lg w-100" asp-controller="ProductManagement" asp-action="Add"><i class="fa fa-solid fa-plus fa-2xl"></i></a>
+    </div>
+</div>
+<!-- Table Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light rounded h-100 p-4">
+        <h6 class="mb-4">Sản phẩm</h6>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Mã sản phẩm</th>
+                    <th scope="col">Tên sản phẩm</th>
+                    <th scope="col">Loại</th>
+                    <th scope="col">Giá</th>
+                    <th scope="col">Trạng thái</th>
+                    <th scope="col">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Products)
+                {
+                    <tr>
+                        <th>@(((Model.PagingInfo.currentPage-1)*MySetting.ITEMS_PER_PAGE) + i++)</th>
+                        <td>@item.ProductId</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.Category.CategoryName</td>
+                        <td>@VNDConverter.ConvertToVND(item.Price)</td>
+                        <td>@(item.Status ? "Đang hoạt động" : "Ngừng hoạt động")</td>
+                        <td>
+                            <a class="btn btn-primary" asp-controller="ProductManagement" asp-action="Update" asp-route-id="@item.ProductId">Sửa</a>
+                            <a class="btn btn-danger" asp-controller="ProductManagement" asp-action="Delete" asp-route-id="@item.ProductId">Xóa</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    @{
+        var pagingModel = new EcommerceMVC.Helpers.PagingModel()
+            {
+                currentPage = Model.PagingInfo.currentPage,
+                countPage = Model.PagingInfo.countPage,
+                generateUrl = Model.PagingInfo.generateUrl
+            };
+    }
+    <partial name="_Paging" model="@pagingModel"></partial>
+</div>
+<!-- Table End -->

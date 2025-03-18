@@ -11,7 +11,7 @@ using App.Areas.Identity.Models.ManageViewModels;
 using App.Areas.Identity.Models.RoleViewModels;
 using App.Areas.Identity.Models.UserViewModels;
 using App.Data;
-using App.ExtendMethods;
+using EcommerceMVC.ExtendMethods;
 using EcommerceMVC.Areas.Identity.Models.User;
 using EcommerceMVC.Data;
 using Microsoft.AspNetCore.Authorization;
@@ -319,19 +319,19 @@ namespace App.Areas.Identity.Controllers
 
         private async Task GetClaims(AddUserRoleModel model)
         {
-            var listRoles = from r in _context.Roles
-                join ur in _context.UserRoles on r.Id equals ur.RoleId
-                where ur.UserId == model.user.Id
-                select r;
+           // var listRoles = from r in _context.Roles
+           //     join ur in _context.UserRoles on r.Id equals ur.RoleId
+           //     where ur.UserId == model.user.Id
+           //     select r;
 
-            var _claimsInRole  = from c in _context.RoleClaims
-                                 join r in listRoles on c.RoleId  equals r.Id
-                                 select c;
-            model.claimsInRole = await _claimsInRole.ToListAsync();
+           // var _claimsInRole  = from c in _context.RoleClaims
+           //                      join r in listRoles on c.RoleId  equals r.Id
+           //                      select c;
+           // model.claimsInRole = await _claimsInRole.ToListAsync();
 
 
-           model.claimsInUserClaim  = await (from c in _context.UserClaims
-            where c.UserId == model.user.Id select c).ToListAsync();
+           //model.claimsInUserClaim  = await (from c in _context.UserClaims
+           // where c.UserId == model.user.Id select c).ToListAsync();
 
         }
   }

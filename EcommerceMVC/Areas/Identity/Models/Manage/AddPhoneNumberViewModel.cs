@@ -11,8 +11,8 @@ namespace App.Areas.Identity.Models.ManageViewModels
 {
     public class AddPhoneNumberViewModel
     {
-        [Required]
-        [Phone]
+        [Required(ErrorMessage = "Phải nhập {0}")]
+        [Phone(ErrorMessage = "Sai định dạng {0}")]
         [Display(Name = "Số điện thoại")]
         public string PhoneNumber { get; set; }
     }

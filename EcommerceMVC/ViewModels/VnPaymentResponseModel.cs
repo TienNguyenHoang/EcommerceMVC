@@ -1,4 +1,7 @@
-﻿namespace EcommerceMVC.ViewModels
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
+
+namespace EcommerceMVC.ViewModels
 {
 	public class VnPaymentResponseModel
 	{
@@ -10,7 +13,7 @@
 		public string TransactionId { get; set; }
 		public string Token { get; set; }
 		public string VnPayResponseCode { get; set; }
-	}
+    }
 
 	public class VnPaymentRequestModel
 	{
@@ -19,5 +22,5 @@
 		public string Description { get; set; }
 		public double Amount { get; set; }
 		public DateTime CreatedDate { get; set; }
-	}
+    }
 }

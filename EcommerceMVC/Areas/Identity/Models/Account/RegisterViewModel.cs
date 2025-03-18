@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace App.Areas.Identity.Models.AccountViewModels
+namespace EcommerceMVC.Areas.Identity.Models.AccountViewModels
 {
     public class RegisterViewModel
     {
@@ -18,7 +18,7 @@ namespace App.Areas.Identity.Models.AccountViewModels
 
 
         [Required(ErrorMessage = "Phải nhập {0}")]
-        [StringLength(100, ErrorMessage = "{0} phải dài từ {2} đến {1} ký tự.", MinimumLength = 2)]
+        [StringLength(100, ErrorMessage = "{0} phải dài từ {2} đến {1} ký tự.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Mật khẩu")]
         public string Password { get; set; }
@@ -34,6 +34,12 @@ namespace App.Areas.Identity.Models.AccountViewModels
         [Required(ErrorMessage = "Phải nhập {0}")]
         [StringLength(100, ErrorMessage = "{0} phải dài từ {2} đến {1} ký tự.", MinimumLength = 3)]
         public string UserName { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Địa chỉ")]
+        [Required(ErrorMessage = "Phải nhập {0}")]
+        [StringLength(400, ErrorMessage = "{0} phải dài từ {2} đến {1} ký tự.", MinimumLength = 10)]
+        public string HomeAddress { get; set; }
 
     }
 }

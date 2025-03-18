@@ -3,8 +3,11 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace App.Areas.Identity.Models.AccountViewModels
@@ -12,7 +15,6 @@ namespace App.Areas.Identity.Models.AccountViewModels
     public class SendCodeViewModel
     {
         public string SelectedProvider { get; set; }
-
         public ICollection<SelectListItem> Providers { get; set; }
 
         public string ReturnUrl { get; set; }

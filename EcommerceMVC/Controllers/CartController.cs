@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Authorization;
 using static EcommerceMVC.Helpers.MySetting;
 using EcommerceMVC.Services;
 using EcommerceMVC.ExtendMethods;
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EcommerceMVC.Controllers
 {
@@ -14,16 +17,19 @@ namespace EcommerceMVC.Controllers
         private readonly EcommerceMvcContext db; 
         private readonly PaypalClient _paypalClient;
         private readonly IVnPayService _vnPayService;
+        private readonly UserManager<User> _userManager;
 
-		public List<CartItem> Cart => HttpContext.Session.Get<List<CartItem>>(MySetting.CART_KEY) ?? new List<CartItem>();
+        public List<CartItem> Cart => HttpContext.Session.Get<List<CartItem>>(MySetting.CART_KEY) ?? new List<CartItem>();
 
-        public CartController(EcommerceMvcContext context, PaypalClient paypalClient, IVnPayService vnPayService)
+        public CartController(EcommerceMvcContext context, UserManager<User> userManager, PaypalClient paypalClient, IVnPayService vnPayService)
         {
             db = context;
+            _userManager = userManager;
             _paypalClient = paypalClient;
             _vnPayService = vnPayService;
 
 		}
+		[Authorize]
         public IActionResult Index()
         {
             return View(Cart);
@@ -70,14 +76,63 @@ namespace EcommerceMVC.Controllers
             TempData["Message"] = $"Không tìm thấy hàng hóa {id}";
             return Redirect("/404");
         }
+		[HttpGet]
+        public IActionResult IncreaseQuantity(int id)
+        {
+            var giohang = Cart;
+            var item = giohang.FirstOrDefault(p => p.ProductId == id);
+            if (item != null)
+            {
+				item.Quantity += 1;
+                HttpContext.Session.Set(MySetting.CART_KEY, giohang);
+                return RedirectToAction("Index");
+            }
+            TempData["Message"] = $"Không tìm thấy hàng hóa {id}";
+            return Redirect("/404");
+        }
+        [HttpGet]
+        public IActionResult DecreaseQuantity(int id)
+        {
+            var giohang = Cart;
+            var item = giohang.FirstOrDefault(p => p.ProductId == id);
+            if (item != null)
+            {
+				if (item.Quantity > 1)
+				{
+                    item.Quantity -= 1;
+                    HttpContext.Session.Set(MySetting.CART_KEY, giohang);
+                }	
+                    return RedirectToAction("Index");
+            }
+            TempData["Message"] = $"Không tìm thấy hàng hóa {id}";
+            return Redirect("/404");
+        }
+        [HttpGet]
+        public IActionResult HandlerUpdateQuantity(int id, int quantity)
+        {
+            var giohang = Cart;
+            var item = giohang.FirstOrDefault(p => p.ProductId == id);
+            var product = db.Products.FirstOrDefault(p => p.ProductId == id);
+            if (item != null)
+            {
+                if (quantity > 1)
+                {
+                    item.Quantity = quantity;
+                    HttpContext.Session.Set(MySetting.CART_KEY, giohang);
+                }
+                return RedirectToAction("Index");
+            }
+            TempData["Message"] = $"Không tìm thấy hàng hóa {id}";
+            return Redirect("/404");
+        }
         [Authorize]
         [HttpGet]
-        public IActionResult Checkout(int id)
+        public IActionResult Checkout()
         {
             var cart = Cart;
             if (cart.Count == 0)
             {
-                return Redirect("/");
+                return RedirectToAction("Index","Product");
             }
             ViewBag.PaypalClientId = _paypalClient.ClientId;
             return View(Cart);
@@ -86,81 +141,94 @@ namespace EcommerceMVC.Controllers
 		[HttpPost]
 		public IActionResult Checkout(CheckoutVM model, string payment = "COD")
 		{
-			//if (ModelState.IsValid)
-			//{
-			//	if (payment == "Thanh toán VNPay")
-			//	{
-			//		var vnPayModel = new VnPaymentRequestModel
-			//		{
-			//			Amount = Cart.Sum(p => p.total),
-			//			CreatedDate = DateTime.Now,
-			//			Description = $"{model.Name} {model.Phone}",
-			//			FullName = model.Name,
-			//			OrderId = new Random().Next(1000, 100000)
-			//		};
-			//		return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));
-			//	}
-			//	var customerId = HttpContext.User.Claims.SingleOrDefault(p=>p.Type == MySetting.CLAIM_CUSTOMERID).Value;
-   //             var kh = new User();
-   //             if (model.SameCustomer)
-   //             {
-   //                 kh = db.User.SingleOrDefault(kh=>kh.Id==customerId);
-   //             }
-   //             var hoadon = new Order
-   //             {
-   //                 UserId = customerId,
-   //                 ReceiverName = model.Name ?? kh.UserName,
-   //                 Address = model.Address ?? kh.HomeAddress,
-   //                 Phone = model.Phone ?? kh.PhoneNumber,
-   //                 OrderDate = DateTime.Now,
-   //                 PaymentMethod = "COD",
-   //                 StatusId = 0,
-   //                 Note = model.Note
-   //             };
+            if (ModelState.IsValid)
+            {
+                // Thanh toán VNPay
+                if (payment == "Thanh toán VNPay")
+                {
+                    var vnPayModel = new VnPaymentRequestModel
+                    {
+                        Amount = Cart.Sum(p => p.total),
+                        CreatedDate = DateTime.Now,
+                        Description = $"{model.ReceiverName} {model.Phone}",
+                        FullName = model.ReceiverName,
+                        OrderId = new Random().Next(1000, 100000)
+                    };
+                    return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel, model));
+                }
+                // Thanh toán COD
+                var customerId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-			//	db.Database.BeginTransaction();
-			//	try
-			//	{
-			//		db.Database.CommitTransaction();
-			//		db.Add(hoadon);
-			//		db.SaveChanges();
+                var order = new Order
+                {
+                    UserId = customerId,
+                    ReceiverName = model.ReceiverName,
+                    Address = model.Address,
+                    Phone = model.Phone,
+                    OrderDate = DateTime.Now,
+                    PaymentMethod = "Thanh toán khi nhận hàng",
+                    StatusId = 0,
+                    Note = model.Note ?? ""
+                };
 
-			//		var cthds = new List<OrderDetail>();
-			//		foreach (var item in Cart)
-			//		{
-			//			cthds.Add(new OrderDetail
-			//			{
-			//				OrderId = hoadon.OrderId,
-   //                         Quantity = item.Quantity,
-			//				Price = item.Price,
-			//				ProductId = item.ProductId
-			//			});
-			//		}
-			//		db.AddRange(cthds);
-			//		db.SaveChanges();
+                using (var transaction = db.Database.BeginTransaction())
+                {
+                    try
+                    {
+                        db.Add(order);
+                        db.SaveChanges();
 
-			//		HttpContext.Session.Set<List<CartItem>>(MySetting.CART_KEY, new List<CartItem>());
+                        var cthds = new List<OrderDetail>();
+                        foreach (var item in Cart)
+                        {
+                            cthds.Add(new OrderDetail
+                            {
+                                OrderId = order.OrderId,
+                                Quantity = item.Quantity,
+                                Price = item.Price,
+                                ProductId = item.ProductId
+                            });
+                        }
+                        db.AddRange(cthds);
+                        db.SaveChanges();
 
-			//		return View("Success");
-			//	}
-			//	catch
-			//	{
-			//		db.Database.RollbackTransaction();
-			//	}
-			//}
+                        transaction.Commit();
+
+                        HttpContext.Session.Set<List<CartItem>>(MySetting.CART_KEY, new List<CartItem>());
+                        TempData["StatusMessage"] = "Đơn hàng đã được khởi tạo!";
+                        return RedirectToAction("Index","Order");
+                    }
+                    catch
+                    {
+                        transaction.Rollback();
+                        throw;
+                    }
+                }
+            }
+			ViewBag.PaypalClientId = _paypalClient.ClientId;
 			return View(Cart);
 		}
         [Authorize]
         [HttpPost("Cart/create-paypal-order")]
-        public async Task<IActionResult> CreatePaypalOrder(CancellationToken cancellationToken)
-        {
-            var tongTien = Cart.Sum(p => p.total).ToString();
+        public async Task<IActionResult> CreatePaypalOrder([FromBody] CheckoutVM model, CancellationToken cancellationToken)
+		{
+            if (!ModelState.IsValid)
+            {
+				var errors = ModelState
+					.Where(x => x.Value.Errors.Count > 0)
+					.ToDictionary(
+						kvp => kvp.Key,
+						kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToArray()
+					);
+
+				return BadRequest(new { message = "Dữ liệu không hợp lệ", errors });
+			}
+			var tongTien = VNDConverter.VNDToUSD(Cart.Sum(p => p.total)).ToString();
             var donvi = "USD";
             var maDonHangThamChieu = "DH" + DateTime.Now.Ticks.ToString();
 			try
 			{
 				var response = await _paypalClient.CreateOrder(tongTien, donvi, maDonHangThamChieu);
-
 				return Ok(response);
 			}
 			catch (Exception ex)
@@ -172,15 +240,56 @@ namespace EcommerceMVC.Controllers
 
 		[Authorize]
 		[HttpPost("/Cart/capture-paypal-order")]
-		public async Task<IActionResult> CapturePaypalOrder(string orderID, CancellationToken cancellationToken)
+		public async Task<IActionResult> CapturePaypalOrder(string orderID, [FromBody] CheckoutVM model, CancellationToken cancellationToken)
 		{
 			try
 			{
 				var response = await _paypalClient.CaptureOrder(orderID);
+				// Lưu database 
+				var customerId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+				var order = new Order
+				{
+					UserId = customerId,
+					ReceiverName = model.ReceiverName,
+					Address = model.Address,
+					Phone = model.Phone,
+					OrderDate = DateTime.Now,
+					PaymentMethod = "Thanh toán Paypal",
+					StatusId = 0,
+					Note = model.Note ?? ""
+				};
+				using (var transaction = db.Database.BeginTransaction())
+				{
+					try
+					{
+						db.Add(order);
+						db.SaveChanges();
 
-				// Lưu database đơn hàng của mình
-
-				return Ok(response);
+						var cthds = new List<OrderDetail>();
+						foreach (var item in Cart)
+						{
+							cthds.Add(new OrderDetail
+							{
+								OrderId = order.OrderId,
+								Quantity = item.Quantity,
+								Price = item.Price,
+								ProductId = item.ProductId
+							});
+						}
+						db.AddRange(cthds);
+						db.SaveChanges();
+						transaction.Commit();
+						HttpContext.Session.Set<List<CartItem>>(MySetting.CART_KEY, new List<CartItem>());
+						TempData["StatusMessage"] = "Đơn hàng đã được khởi tạo!";
+						return Ok(response);
+					}
+					catch (Exception ex)
+					{
+						transaction.Rollback();
+						var error = new { ex.GetBaseException().Message };
+						return BadRequest(error);
+					}
+				}
 			}
 			catch (Exception ex)
 			{
@@ -211,10 +320,52 @@ namespace EcommerceMVC.Controllers
 			}
 
 
-			// Lưu đơn hàng vô database
+            // Lưu đơn hàng vô database
+            var customerId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var orderInfo = response.OrderDescription.Split("|");
+            var order = new Order
+            {
+                UserId = customerId,
+                ReceiverName = orderInfo[0].Trim(),
+                Address = orderInfo[1].Trim(),
+                Phone = orderInfo[2].Trim(),
+                OrderDate = DateTime.Now,
+                PaymentMethod = "Thanh toán VNPAY",
+                StatusId = 0,
+                Note = orderInfo[3].Trim() ?? ""
+            };
+            using (var transaction = db.Database.BeginTransaction())
+            {
+                try
+                {
+                    db.Add(order);
+                    db.SaveChanges();
 
-			TempData["Message"] = $"Thanh toán VNPay thành công";
-			return RedirectToAction("PaymentSuccess");
+                    var cthds = new List<OrderDetail>();
+                    foreach (var item in Cart)
+                    {
+                        cthds.Add(new OrderDetail
+                        {
+                            OrderId = order.OrderId,
+                            Quantity = item.Quantity,
+                            Price = item.Price,
+                            ProductId = item.ProductId
+                        });
+                    }
+                    db.AddRange(cthds);
+                    db.SaveChanges();
+                    transaction.Commit();
+                    HttpContext.Session.Set<List<CartItem>>(MySetting.CART_KEY, new List<CartItem>());
+                    TempData["StatusMessage"] = "Đơn hàng đã được khởi tạo!";
+                    return RedirectToAction("Index","Order");
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    var error = new { ex.GetBaseException().Message };
+                    return RedirectToAction(nameof(PaymentFail));
+                }
+            }
 		}
 	}
 }

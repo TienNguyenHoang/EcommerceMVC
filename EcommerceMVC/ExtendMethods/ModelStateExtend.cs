@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Identity;
 
-namespace App.ExtendMethods
+namespace EcommerceMVC.ExtendMethods
 {
     public static class ModelStateExtend
     {

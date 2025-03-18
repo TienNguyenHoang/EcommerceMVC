@@ -1,0 +1,101 @@
+﻿@model IEnumerable<EcommerceMVC.ViewModels.OrderVM>
+@{
+	ViewData["Title"] = "Quản lý đơn hàng";
+	var i = 1;
+}
+
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+	<h1 class="text-center text-white display-6">Đơn hàng</h1>
+	<ol class="breadcrumb justify-content-center mb-0">
+		<li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+		<li class="breadcrumb-item"><a href="#">Đơn hàng</a></li>
+	</ol>
+</div>
+@if(Model.Count()<=0)
+{
+	<h1>Bạn chưa có đơn hàng nào</h1>
+	<button asp-controller="Product" asp-action="Index">Mua Ngay!</button>
+}
+else
+{
+	<partial name="_StatusMessage"></partial>
+	<div class="container-fluid py-5 overflow-auto" style="max-height: 500px">
+		<div class="container py-5">
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">STT</th>
+							<th scope="col">Ngày đặt</th>
+							<th scope="col">Tổng Tiền</th>
+							<th scope="col">Trạng thái</th>
+							<th scope="col">Thao tác</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							<tr>
+								<td class="py-5">@i</td>
+								<td class="py-5">@item.OrderDate</td>
+								<td class="py-5">@VNDConverter.ConvertToVND(item.OrderDetails.ToList().Sum(o => o.Price * o.Quantity))</td>
+								<td class="py-5">@item.Status.OrderStatusName</td>
+								<td class="py-5 d-flex">
+									<form asp-controller="Order" asp-action="OrderDetail" method="post" class="me-1">
+										<button type="submit" class="btn btn-success" name="id" value="@item.OrderId">
+											Chi tiết
+										</button>
+									</form>
+									@if (item.StatusId == 0)
+									{
+										<button type="button" id="canceledBtn" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#CanceledModal" data-id="@item.OrderId">
+											Hủy đơn hàng
+										</button>
+									}
+
+								</td>
+							</tr>
+							i++;
+						}
+					</tbody>
+				</table>
+			</div>
+			<!-- Canceled Modal Start -->
+			<div class="modal fade" id="CanceledModal" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Hủy Đơn Hàng</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>Bạn có chắc muốn hủy đơn hàng?</p>
+						</div>
+						<div class="modal-footer">
+							<form asp-controller="Order" asp-action="Canceled" method="post">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+								<button type="submit" class="btn btn-danger" id="cancelAccepeted" name="id" value="">Hủy</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Canceled Modal End -->
+		</div>
+	</div>
+}
+
+@section Scripts
+{
+	<script>
+		var button = document.getElementById("canceledBtn"); // Button kích hoạt modal
+		var dataId = button.getAttribute("data-id"); // Lấy giá trị data-id
+
+		// Gán giá trị vào modal
+		console.log(document.getElementById("cancelAccepeted"));
+		console.log(dataId);
+		console.log(document.getElementById("cancelAccepeted").value);
+		document.getElementById("cancelAccepeted").value = dataId
+	</script>
+}

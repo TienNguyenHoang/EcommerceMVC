@@ -4,6 +4,10 @@ using MailKit.Security;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MimeKit;
+using Twilio.Types;
+using Twilio;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Twilio.Rest.Api.V2010.Account;
 
 public class MailSettings
 {
@@ -39,7 +43,7 @@ public class SendMailService : IEmailSender {
 
    
     public async Task SendEmailAsync(string email, string subject, string htmlMessage) {
-       var message = new MimeMessage ();
+       var message = new MimeMessage();
         message.Sender = new MailboxAddress(mailSettings.DisplayName, mailSettings.Mail);
         message.From.Add(new MailboxAddress(mailSettings.DisplayName, mailSettings.Mail));
         message.To.Add (MailboxAddress.Parse (email));
@@ -80,8 +84,8 @@ public class SendMailService : IEmailSender {
         {
             // Cài đặt dịch vụ gửi SMS tại đây
             System.IO.Directory.CreateDirectory("smssave");
-            var emailsavefile = string.Format(@"smssave/{0}-{1}.txt",number, Guid.NewGuid());
-            System.IO.File.WriteAllTextAsync(emailsavefile, message);
-            return Task.FromResult(0);
+                var emailsavefile = string.Format(@"smssave/{0}-{1}.txt",number, Guid.NewGuid());
+                System.IO.File.WriteAllTextAsync(emailsavefile, message);
+                return Task.FromResult(0);
         }
 }
